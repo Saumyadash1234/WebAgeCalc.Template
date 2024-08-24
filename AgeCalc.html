@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel = "stylesheet"
+          href = "style.css" />
+</head>
+<style>
+    
+</style>
+<body>
+
+     <div class = "container">
+             
+        <br1>
+     
+             <div class = "card">
+                <header>
+                     <h1>Welcome To The Age Calculator Web App</h1>
+                </header>
+    
+
+            <div> 
+                <label>
+                     Enter your Date Of Birth:
+                </label><br>
+
+                <input  id = "inputDob"           
+                        type = "date"
+                        value = "2000-01-01" />
+            </div>
+        <br />
+
+    <!-- Take the data from which 
+    the date to be calculated -->
+
+    <div>
+        <br>
+        <label>
+            Current Date:
+        </label>
+        <br/>
+        <br>
+
+        <input id = "cdate"
+               type = "date"
+               value = ""
+               />
+    </div><br />
+
+    <button type = "button" onclick="getDOB()">
+        Calculate
+    </button><br />
+
+    <div id = "currentAge">        
+    </div>
+
+    <script src = "script.js"></script>
+    </div>
+
+</div>
+
+
+ 
+</body>
+</html>
